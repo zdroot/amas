@@ -14,7 +14,7 @@ public class SvContext implements ServletContextListener {
 
     @Override
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
-        System.out.println("销毁。。。");
+        System.out.println("销毁");
 
     }
 }
